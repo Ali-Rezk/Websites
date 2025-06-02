@@ -1,0 +1,483 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 110vh;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* nav-bar */
+
+.nav-container {
+  width: 80%;
+  padding: 20px 16px;
+  margin: auto;
+}
+
+.nav-container .nav-left {
+  float: left;
+}
+
+.nav-container .nav-right {
+  width: 40%;
+  padding: 5px;
+  float: right;
+}
+
+.nav-right ul {
+  margin: 0 0;
+}
+
+.nav-right ul li {
+  width: 16.66%;
+  float: left;
+  text-align: center;
+}
+
+.nav-right ul li a {
+  color: white;
+  font-family: "Alegreya";
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.nav-container .nav-left a img {
+  height: 48px;
+}
+
+/* welcome */
+
+.welcome {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  vertical-align: middle;
+  margin: 0 25%;
+  margin-top: 150px;
+}
+
+.welcome h1 {
+  font-family: "Alegreya";
+  font-size: 76px;
+  line-height: 91px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.welcome span {
+  color: rgba(255, 255, 255, 0.92);
+  font-family: "Alegreya Sans";
+  font-size: 22px;
+  line-height: 41px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.welcome p {
+  color: rgba(255, 255, 255, 0.92);
+  font-family: "Alegreya Sans";
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.welcome .btn {
+  color: rgba(255, 255, 255, 0.92);
+  font-family: "Alegreya Sans";
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 15px 28px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.btn.one {
+  background-color: #8e7754;
+  border: 2px solid transparent;
+}
+
+.btn.two {
+  background-color: transparent;
+  border: 2px solid white;
+  margin-left: 12px;
+}
+
+/* who-we-are */
+
+.who-we-are-container {
+  padding: 90px 140px 60px;
+}
+
+.who-we-are-img {
+  width: 45%;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.who-we-are-img img {
+  width: 100%;
+}
+
+.who-we-are-text {
+  width: 45%;
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 40px;
+  margin-left: 20px;
+  vertical-align: top;
+}
+
+.who-we-are-text h2 {
+  color: #303030;
+  font-family: "Alegreya";
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+.who-we-are-text p {
+  color: #686868;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.who-we-are-text .who-we-are-list ul {
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.who-we-are-text .who-we-are-list ul li {
+  padding: 8px 0;
+  /* padding-left: 56px; */
+}
+
+.who-we-are-text .who-we-are-list ul li span {
+  color: #686868;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.who-we-are-text .who-we-are-list ul li img {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* our-location */
+
+.our-location-container {
+  padding: 90px 140px 60px;
+  background-color: #f8f8f8;
+}
+
+.our-location-text {
+  width: 45%;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 40px;
+  margin-right: 20px;
+  margin-top: 30px;
+  vertical-align: top;
+}
+
+.our-location-text h2 {
+  color: #303030;
+  font-family: "Alegreya";
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+.our-location-text p {
+  color: #686868;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.our-location-img {
+  width: 45%;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.our-location-img img {
+  width: 100%;
+}
+
+/* our-baking */
+
+.our-baking-container {
+  padding: 70px 140px 50px;
+}
+
+.our-baking-text {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.our-baking-text h3 {
+  color: #303030;
+  font-family: "Alegreya";
+  font-size: 30px;
+  line-height: 41px;
+  font-weight: 400;
+  margin: 0 0;
+}
+
+.our-baking-text p {
+  color: #888888;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.our-baking-sec {
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.our-baking-sec img {
+  width: 100%;
+}
+
+.our-baking-sec h4 {
+  color: #303030;
+  font-family: "Alegreya";
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+
+  margin-bottom: 15px;
+}
+
+.our-baking-sec p {
+  color: #686868;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+/* contact-info */
+
+.contact-info-container {
+  padding: 90px 140px 60px;
+}
+
+.contact-info-map {
+  width: 45%;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.contact-info-map .map {
+  width: 100%;
+  height: 70vh;
+}
+
+.contact-info-text {
+  width: 45%;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 40px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.contact-info-text h2 {
+  color: #303030;
+  font-family: "Alegreya";
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.contact-info-text p {
+  color: #686868;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.contact-info-text #contact-p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.contact-info-text .contact-info-list ul {
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.contact-info-text .contact-info-list ul li {
+  padding: 10px 0;
+}
+
+.contact-info-text .contact-info-list ul li span {
+  color: #686868;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.contact-info-text .contact-info-list ul li img {
+  background-color: #8e7754;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* footer-sec-1 */
+
+/* footer {
+  height: 110vh;
+} */
+
+.footer-sec-1 {
+  background-color: #403d38;
+  padding: 60px 15px 52px;
+}
+
+.footer-container {
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+}
+
+.footer-sec-1-item {
+  float: left;
+  width: 22%;
+  padding: 0 16px;
+}
+
+.footer-sec-1-item h4 {
+  color: white;
+  font-family: "Alegreya";
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.footer-sec-1-item ul li span,
+.footer-sec-1-item p,
+a {
+  color: #969696;
+  font-family: "Alegreya Sans";
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.footer-sec-1-item ul li {
+  border-bottom: 1px solid #46433e;
+  padding-bottom: 7px;
+  margin-bottom: 6px;
+}
+
+.footer-sec-1-item ul li img {
+  width: 18px;
+  vertical-align: middle;
+}
+
+.footer-sec-1-item .footer-icon #icon-absolute {
+  position: absolute;
+}
+
+.footer-sec-1-item .footer-icon li img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-icon li span {
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.footer-sec-1-item.contact-details {
+  background-image: url(../images/contact-details-map.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* footer-sec-2 */
+
+.footer-sec-2 {
+  background-color: #353330;
+  height: 45vh;
+}
+
+.footer-container-2 {
+  width: 50%;
+  text-align: center;
+  padding: 50px 0 40px;
+  margin: auto;
+}
+
+.footer-container-2 p {
+  color: #777777;
+  font-family: "Alegreya Sans";
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.footer-container-2 .footer-social a img {
+  background-color: #484540;
+}
+
+.footer-container-2 .footer-social a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
